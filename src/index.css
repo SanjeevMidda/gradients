@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.App {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100dvw;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 150px;
+  /* font-weight: 400; */
+  position: absolute;
+  background: none;
+  top: 10px;
+}
+
+h2 {
+  margin-left: 6px;
+  font-weight: 400;
+}
+
+.links {
+  position: absolute;
+  background: none;
+  display: flex;
+  /* flex-direction: column; */
+  bottom: 110px;
+  /* gap: 10px; */
+
+  h3 {
+    background: none;
+    font-weight: 400;
+    /* font-size: 16px; */
+  }
+}
